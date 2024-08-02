@@ -25,7 +25,7 @@ sql.connect(config, function (err) {
       return;
     }
 
-    console.dir(recordset);
+    console.dir(recordset.recordset);
     sql.close();
   });
 });
